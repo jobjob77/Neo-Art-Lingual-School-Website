@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.content h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Resize Gallery Images */
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of images */
+    justify-content: space-around; /* Space between images */
+    gap: 10px; /* Space between images */
+}
+
+.gallery img {
+    width: auto; /* Adjust to fit the container */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    max-width: 100%; /* Prevents images from exceeding container width */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+/* Resize Advertisement Images */
+.ads {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ads img {
+    width: auto;
+    height: 150px; /* Fixed height for ads */
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Resize Portfolio Images */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.portfolio a {
+    display: block;
+    width: auto;
+    max-width: 250px; /* Max width for portfolio items */
+    text-align: center; /* Center-align text */
+}
+
+.portfolio img {
+    width: 100%; /* Fit within the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
